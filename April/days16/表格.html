@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+</head>
+<script type="text/javascript">
+	let localMillis = new Date().getTime();
+	console.log(localMillis);
+</script>
+<style type="text/css">
+	tr,th,td{
+		border: 10px solid red
+	}
+	table{
+		border-collapse: collapse;/*折叠*/
+		align-content: center;
+		text-align: center;
+		align-content: center;
+	}
+	body{
+		text-align: center;
+		align-content: center;
+	}
+	p{
+		background-color: gray;
+		padding: 20px;
+	}
+</style>
+<body>
+	<p>我是测试p背景颜色的</p>
+<table>
+	<tr>
+		<th>ID</th>
+		<th>姓名</th>
+		<th>性别</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>黎明</td>
+		<td>M</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>黎明</td>
+		<td>M</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>黎明</td>
+		<td>M</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>黎明</td>
+		<td>M</td>
+	</tr>
+</table>
+<script type="text/javascript">
+	let currentTime = new Date().getTime();
+	console.log(currentTime);
+	let total = currentTime - localMillis;
+	console.log(total);
+</script>
+</body>
+</html>
